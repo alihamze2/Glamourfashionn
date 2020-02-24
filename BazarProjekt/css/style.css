@@ -1,0 +1,168 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+#myVideo {
+max-width: 100%;
+}
+.karosel-container{
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    position: relative;
+    top: 300px;
+    overflow: hidden;
+    
+}
+#videon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 450px;
+    padding-top:600px;
+}
+.karosel-slide {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    max-width: 100%;
+
+}    
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    top: 43%;
+    font-size: 100px;
+    color: white;
+    opacity: 0.6;
+    cursor: pointer;
+}
+#nextBtn {
+    position: absolute;
+    top: 43%;
+    z-index: 10;
+    right: 5%;
+    font-size: 100px;
+    color: white;
+    opacity: 0.6;
+    cursor: pointer;
+}
+#nextBtn:hover {
+    opacity: 0.9;
+}
+#prevBtn:hover {
+    opacity: 0.9;
+}
+
+
+#storbillede img {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+#tekst1 h1{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 2.3em;
+    color: dimgrey;
+    
+}
+
+#flexsection
+{
+    font-size: 1.4em;
+    text-align: center;
+    display: flex;
+    padding: 0 4%;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.first {
+    width: 45%;
+    padding-right: 30px;
+}
+.second {
+    width: 45%;
+    padding-left: 30px;
+}
+
+.wedding {
+    padding-top: 500px;
+    
+    
+}
+.wedding img{
+    float: left;
+    max-width: 40%;
+    padding-left: 50px;
+}
+.wedding H1{
+    float: right;
+    padding-right: 400px;
+    padding-top: 70px;
+    font-family: 'Red Velvet';
+    
+}
+.wedding p {
+    font-size: 1em;
+    float: none;
+    padding-top: 200px;
+    margin-left: 650px;
+    font-family: cursive;
+    line-height: 2;
+
+}
+
+.belt img {
+    padding-top: 500px;
+    width: 100%;
+    height: 1400px;
+ }
+
+
+.gala {
+    padding-top: 400px;
+    padding-bottom: 300px;
+}
+.gala img{
+    padding-top: 
+    float: left;
+    max-width: 40%;
+    padding-left: 80px;
+}
+.gala H1{
+    float: right;
+    padding-right: 600px;
+    font-size: 2.5em;
+    padding-top: 25px;
+    color: darkslateblue;
+    
+}
+.gala p {
+    font-size: 2em;
+    font-family: cursive;
+    line-height: 2;
+    display: none;
+    
+    
+
+}
+
+footer {
+    background-color: dimgrey;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+footer img { padding-left: 90px; padding-top;
+}
+footer H1 {
+    text-align: center;
+}
